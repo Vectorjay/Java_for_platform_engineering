@@ -7,7 +7,8 @@ public class EmployeeManagement  {
                     "Platform Engineer",
                     18,
                     7,
-                    50000
+                    50000,
+                    8
             );
 
             victor.printDetails();
@@ -17,5 +18,7 @@ public class EmployeeManagement  {
             System.out.println("Reason: " + e.getMessage());
         }
         System.out.println("Program continues running safely...");
+
+
     }
 }
